@@ -14,6 +14,9 @@
         android:theme="@style/Theme.DoUP_APP"
         tools:targetApi="31">
         <activity
+            android:name=".PasienActivity"
+            android:exported="false" />
+        <activity
             android:name=".register_page"
             android:exported="false" />
         <activity
