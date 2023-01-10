@@ -5,13 +5,15 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Dokter(
-    val nama:String,
-    val user:String,
-    val pass:String,
+    override val nama:String,
+    override val user:String,
+    override val pass:String,
     val spesialisasi:String,
     val desc:String,
     val pengalaman:Int,
     var biaya:Int,
     var pendapatan:Int,
     val konsultasi:ArrayList<Konsultasi>
-):Parcelable{}
+):Parcelable,User(nama, user, pass){
+
+}

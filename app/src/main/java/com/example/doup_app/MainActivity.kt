@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var etpass: EditText
     lateinit var btnLogin : Button
     lateinit var btnToRegis : Button
+    lateinit var btnToRegisDokter: Button
     lateinit var l: ActivityResultLauncher<Intent>
     var users:ArrayList<User> = arrayListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         etpass = findViewById(R.id.edPass)
         btnLogin = findViewById(R.id.btnLogin)
         btnToRegis = findViewById(R.id.btnToRegis)
+        btnToRegisDokter = findViewById(R.id.btnToRegisDokter)
 
         btnLogin.setBackgroundColor(resources.getColor(R.color.orange))
         btnToRegis.setBackgroundColor(resources.getColor(R.color.orange))
@@ -32,6 +34,11 @@ class MainActivity : AppCompatActivity() {
             if (data !=null) {
                 users=data.getParcelableArrayListExtra<User>("user")!!
             }
+        }
+        btnToRegisDokter.setOnClickListener {
+            val i=Intent(this,RegisterDokterActivity::class.java)
+            i.putExtra("user",users)
+            l.launch(i)
         }
         btnToRegis.setOnClickListener {
             val i= Intent(this,register_page::class.java)
@@ -46,17 +53,17 @@ class MainActivity : AppCompatActivity() {
                 for (u in users){
                     if (u.user==user&&u.pass==pass){
                         login=true
-//                        if (u is Dokter){
-//                            val i=Intent(this,DokterActivity::class.java)
-//                            i.putParcelableArrayListExtra("user",users)
-//                            i.putExtra("idx",users.indexOf(u).toString())
-//                            l.launch(i)
-//                        }else{
-//                            val i=Intent(this,PasienActivity::class.java)
-//                            i.putParcelableArrayListExtra("user",users)
-//                            i.putExtra("idx",users.indexOf(u).toString())
-//                            l.launch(i)
-//                        }
+                        if (u is Dokter){
+                            val i=Intent(this,DokterActivity::class.java)
+                            i.putParcelableArrayListExtra("user",users)
+                            i.putExtra("idx",users.indexOf(u).toString())
+                            l.launch(i)
+                        }else{
+                            val i=Intent(this,PasienActivity::class.java)
+                            i.putParcelableArrayListExtra("user",users)
+                            i.putExtra("idx",users.indexOf(u).toString())
+                            l.launch(i)
+                        }
                         val i=Intent(this,PasienActivity::class.java)
                         i.putParcelableArrayListExtra("user",users)
                         i.putExtra("idx",users.indexOf(u).toString())

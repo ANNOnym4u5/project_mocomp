@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_main.xml" value="0.3546195652173913" />
+        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_chat_pasien.xml" value="0.1796875" />
+        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_dokter.xml" value="0.1796875" />
         <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_pasien.xml" value="0.17864583333333334" />
+        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_register_dokter.xml" value="0.1796875" />
         <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_register_page.xml" value="0.14130434782608695" />
+        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/chat.xml" value="0.1796875" />
+        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/menu/menu.xml" value="0.1796875" />
       </map>
     </option>
   </component>
