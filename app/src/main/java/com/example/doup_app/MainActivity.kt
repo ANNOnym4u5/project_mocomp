@@ -64,10 +64,6 @@ class MainActivity : AppCompatActivity() {
                             i.putExtra("idx",users.indexOf(u).toString())
                             l.launch(i)
                         }
-                        val i=Intent(this,PasienActivity::class.java)
-                        i.putParcelableArrayListExtra("user",users)
-                        i.putExtra("idx",users.indexOf(u).toString())
-                        l.launch(i)
                     }
                 }
                 if (!login){

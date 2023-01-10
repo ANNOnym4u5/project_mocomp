@@ -77,8 +77,11 @@
         android:id="@+id/btnToRegisDokter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register Dokter"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="657dp" />
+        android:layout_marginTop="112dp"
+        android:text="Registrasi Dokter"
+        app:layout_constraintEnd_toStartOf="@+id/btnToRegis"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
