@@ -6,4 +6,102 @@
     android:layout_height="match_parent"
     tools:context=".PasienActivity">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Home Pasien"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvpasiennama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:text="Hi, "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnpasienlogout"
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#C80000"
+        android:text="logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etnamadokter"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Spesialis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpasienlogout" />
+
+    <Spinner
+        android:id="@+id/spinpasien"
+        android:layout_width="217dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/filter"
+        app:layout_constraintBottom_toBottomOf="@+id/etnamadokter"
+        app:layout_constraintStart_toEndOf="@+id/etnamadokter"
+        app:layout_constraintTop_toTopOf="@+id/etnamadokter"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/lvpasien"
+        android:layout_width="363dp"
+        android:layout_height="449dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btntchat"
+        android:layout_width="276dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:text="buka percakapan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvpasien" />
+
+    <TextView
+        android:id="@+id/tvtolak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="KONSULTASI SEBELUMNYA DITOLAK"
+        android:textColor="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="@+id/btntchat"
+        app:layout_constraintStart_toStartOf="@+id/btntchat"
+        app:layout_constraintTop_toBottomOf="@+id/btntchat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
