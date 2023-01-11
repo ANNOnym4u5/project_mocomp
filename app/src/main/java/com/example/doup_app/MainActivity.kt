@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
         btnToRegisDokter.setOnClickListener {
             val i=Intent(this,RegisterDokterActivity::class.java)
+
             i.putExtra("user",users)
             l.launch(i)
         }

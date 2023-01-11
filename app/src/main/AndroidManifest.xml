@@ -20,6 +20,9 @@
             android:name=".register_page"
             android:exported="false" />
         <activity
+            android:name=".RegisterDokterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
