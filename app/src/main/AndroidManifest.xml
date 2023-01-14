@@ -23,6 +23,9 @@
             android:name=".RegisterDokterActivity"
             android:exported="false" />
         <activity
+            android:name=".DokterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
