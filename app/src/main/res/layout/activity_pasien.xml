@@ -4,25 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/chat_pasien"
     tools:context=".PasienActivity">
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:text="Home Pasien"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvpasiennama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="76dp"
         android:text="Hi, "
         android:textSize="20sp"
         android:textStyle="bold"
@@ -31,9 +21,9 @@
 
     <Button
         android:id="@+id/btnpasienlogout"
-        android:layout_width="172dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#C80000"
         android:text="logout"
@@ -42,13 +32,15 @@
 
     <EditText
         android:id="@+id/etnamadokter"
-        android:layout_width="165dp"
-        android:layout_height="37dp"
+        android:layout_width="166dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="108dp"
+        android:background="@drawable/cutom_input"
         android:ems="10"
         android:hint="Nama"
         android:inputType="textPersonName"
+        android:padding="11dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,18 +48,20 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:text="Spesialis"
+        android:textColor="#020202"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.932"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnpasienlogout" />
 
     <Spinner
         android:id="@+id/spinpasien"
-        android:layout_width="217dp"
-        android:layout_height="26dp"
+        android:layout_width="197dp"
+        android:layout_height="28dp"
         android:layout_marginStart="8dp"
+        android:background="@drawable/cutom_input"
         android:entries="@array/filter"
         app:layout_constraintBottom_toBottomOf="@+id/etnamadokter"
         app:layout_constraintStart_toEndOf="@+id/etnamadokter"
@@ -79,6 +73,7 @@
         android:layout_width="363dp"
         android:layout_height="449dp"
         android:layout_marginTop="172dp"
+        android:background="@drawable/lv_transp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -32,6 +32,7 @@ class RegisterDokterActivity : AppCompatActivity() {
         etdesc=findViewById(R.id.etregisdokterdesc)
         ettahun=findViewById(R.id.etregisdoktertahun)
         btnregis=findViewById(R.id.btnregisdokter)
+        btnregis.setBackgroundColor(resources.getColor(R.color.orange))
         users=intent.getParcelableArrayListExtra<User>("user")!!
         btnregis.setOnClickListener {
             val nama=etnama.text.toString()

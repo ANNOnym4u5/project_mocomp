@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         btnToRegisDokter = findViewById(R.id.btnToRegisDokter)
 
         btnLogin.setBackgroundColor(resources.getColor(R.color.orange))
-        btnToRegis.setBackgroundColor(resources.getColor(R.color.orange))
+
 
         l=registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             val data = it.data

@@ -28,6 +28,8 @@ class register_page : AppCompatActivity() {
         users=intent.getParcelableArrayListExtra<User>("user")!!
         btnregis=findViewById(R.id.btnRegister)
         btnlogin=findViewById(R.id.btnToLogin)
+
+        btnregis.setBackgroundColor(resources.getColor(R.color.orange))
         btnlogin.setOnClickListener {
             val i= Intent()
             i.putExtra("user",users)

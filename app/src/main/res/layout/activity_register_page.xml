@@ -9,43 +9,60 @@
     tools:context=".register_page">
 
     <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/btn_custom"
-        android:text="Register"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#FFFFFF"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="497dp" />
-
-    <Button
         android:id="@+id/btnToLogin"
         android:layout_width="107dp"
         android:layout_height="44dp"
-        android:layout_marginTop="124dp"
-        android:background="@drawable/btn_custom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="50dp"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/edConfReg" />
 
     <EditText
         android:id="@+id/edUserReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/cutom_input"
         android:drawableStart="@drawable/ic_baseline_person_24"
         android:ems="10"
         android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="11dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNamerReg" />
+
+    <EditText
+        android:id="@+id/edNamerReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/cutom_input"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
         android:padding="11dp"
         android:textSize="16sp"
@@ -59,7 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/cutom_input"
         android:drawableStart="@drawable/ic_baseline_mail_24"
@@ -78,7 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/cutom_input"
         android:drawableStart="@drawable/ic_baseline_phone_iphone_24"
@@ -97,7 +114,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/cutom_input"
         android:drawableStart="@drawable/ic_baseline_password_24"
@@ -107,7 +124,7 @@
         android:padding="11dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edPassReg" />
 
@@ -116,7 +133,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="50dp"
         android:background="@drawable/cutom_input"
         android:drawableStart="@drawable/ic_baseline_password_24"
@@ -126,7 +143,7 @@
         android:padding="11dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edNumberReg" />
 

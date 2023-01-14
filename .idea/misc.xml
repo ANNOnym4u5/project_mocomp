@@ -3,22 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_main.xml" value="0.3546195652173913" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_chat_pasien.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_dokter.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_keluhan.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_lv_pasien.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_pasien.xml" value="0.17864583333333334" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_register_dokter.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/activity_register_page.xml" value="0.14130434782608695" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/layout/chat.xml" value="0.1796875" />
-        <entry key="..\:/SEMESTER 5/MOCOMP/Proyek Mocomp/project_mocomp/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/btn_custom.xml" value="0.318" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/cutom_input.xml" value="0.318" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/ic_baseline_description_24.xml" value="0.318" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.3325" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.318" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/ic_baseline_password_24.xml" value="0.3725" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/drawable/ic_baseline_poll_24.xml" value="0.318" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_chat_pasien.xml" value="0.371875" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_dokter.xml" value="0.67" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_keluhan.xml" value="0.371875" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_lv_pasien.xml" value="0.371875" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_pasien.xml" value="0.5" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_register_dokter.xml" value="0.67" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/activity_register_page.xml" value="0.67" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/layout/chat.xml" value="0.371875" />
+        <entry key="..\:/ISTTS/SEMS 5/MoComp/ProyekMocomp/project_mocomp/app/src/main/res/menu/menu.xml" value="0.371875" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
